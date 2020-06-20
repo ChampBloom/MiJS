@@ -16,10 +16,11 @@
     --margin-09: calc(var(--margin-01)* 9);
     --margin-10: calc(var(--margin-01)* 10);
 
-    --bg: #e8ffe9;
+    --bg: #ccebe2;
     --bg02: #f6fffd;
     --fg: #4EE0D6;
     --fg02: #00CED2;
+    --gray: #494949;
 }
 
 body {
@@ -68,6 +69,7 @@ h1 {
     border: solid 2px var(--fg);
     border-radius: 8px;
     padding: var(--margin-02);
+    padding-left: var(--margin-03);
     margin: 0;
 }
 
@@ -77,9 +79,18 @@ h1 {
 }
 
 
-.text {
+.text,
+.struggle_text {
     margin: var(--margin-03);
     text-align: justify;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.text {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: gray;    
 }
 
 #footer {
